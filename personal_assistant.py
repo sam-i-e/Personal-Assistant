@@ -65,8 +65,8 @@ def takeCommand():
         return statement
 
 
-print("Loading your AI personal assistant Friday")
-speak("Loading your AI personal assistant Friday")
+print("Loading your AI personal assistant Lilo")
+speak("Loading your AI personal assistant Lilo")
 wishMe()
 
 if __name__ == '__main__':
@@ -77,8 +77,8 @@ if __name__ == '__main__':
         if statement == 0:
             continue
         if "good bye" in statement or "ok bye" in statement or "stop" in statement or "bye bye" in statement or "bye" in statement:
-            speak('your personal assistant Friday is shutting down,Good bye')
-            print('your personal assistant Friday is shutting down,Good bye.')
+            speak('your personal assistant Lilo is shutting down,Good bye')
+            print('your personal assistant Lilo is shutting down,Good bye.')
             break
         elif "wikipedia" in statement:
             speak("Searching wikipedia......")
@@ -144,17 +144,17 @@ if __name__ == '__main__':
                 "https://timesofindia.indiatimes.com/home/headlines")
             speak("Here are some headlines from Times of India, Happy Reading!")
             time.sleep(3)
-            speak('your personal assistant Friday is shutting down,Good bye')
-            print('your personal assistant Friday is shutting down,Good bye')
+            speak('your personal assistant Lilo is shutting down,Good bye')
+            print('your personal assistant Lilo is shutting down,Good bye')
             break
         elif "take a photo" in statement or "click a picture" in statement:
             speak("Say Cheese!")
             take_pic.click()
         elif "who are you" in statement or "what can you do" in statement:
-            print('''I am your sweet and intelligent Assistant Friday version 1.0 . I am programmed to minor tasks like
+            print('''I am your sweet and intelligent Assistant Lilo version 1.0 . I am programmed to minor tasks like
                   opening youtube,google chrome, gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather
                   In different cities, get top headline news from times of india and you can ask me computational or geographical questions too!''')
-            speak('''I am your sweet and intelligent Assistant Friday version 1 point 0.  I am programmed to minor tasks like
+            speak('''I am your sweet and intelligent Assistant Lilo version 1 point 0.  I am programmed to minor tasks like
                   opening youtube,google chrome, gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather
                   In different cities, get top headline news from times of india and you can ask me computational or geographical questions too!''')
         elif "who created you" in statement or "who discovered you" in statement:
